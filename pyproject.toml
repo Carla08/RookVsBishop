@@ -4,11 +4,13 @@ version = "0.1.0"
 description = "rook vs bishop chess simulation"
 authors = ["Carla Prieto <carlapchavez@gmail.com>"]
 readme = "README.md"
-packages = [{ include = "src" }]
+packages = [{ include = "rookvsbishop" }]
+
+[tool.poetry.scripts]
+rookvsbishop = "main:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"

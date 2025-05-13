@@ -1,5 +1,5 @@
-from pieces.color import Color
-from moves.chess_coordinates_converter import notation_to_coords
+from rookvsbishop.pieces.color import Color
+from rookvsbishop.moves.chess_coordinates_converter import notation_to_coords
 
 
 class Piece:

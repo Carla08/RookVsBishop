@@ -1,6 +1,6 @@
-from pieces.color import Color
-from pieces.piece import Piece
-from moves.chess_coordinates_converter import coords_to_notation
+from rookvsbishop.pieces.color import Color
+from rookvsbishop.pieces.piece import Piece
+from rookvsbishop.moves.chess_coordinates_converter import coords_to_notation
 
 
 class Rook(Piece):

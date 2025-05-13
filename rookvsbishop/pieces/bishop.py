@@ -1,5 +1,5 @@
-from pieces.color import Color
-from pieces.piece import Piece
+from rookvsbishop.pieces.color import Color
+from rookvsbishop.pieces.piece import Piece
 
 
 class Bishop(Piece):

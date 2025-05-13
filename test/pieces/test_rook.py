@@ -1,7 +1,7 @@
 import pytest
 
-from pieces.color import Color
-from pieces.rook import Rook
+from rookvsbishop.pieces.color import Color
+from rookvsbishop.pieces.rook import Rook
 
 
 def test_rook_repr():

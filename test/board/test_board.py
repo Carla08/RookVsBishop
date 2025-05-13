@@ -1,7 +1,7 @@
-from board.board import Board
-from pieces.bishop import Bishop
-from pieces.rook import Rook
-from pieces.color import Color
+from rookvsbishop.board.board import Board
+from rookvsbishop.pieces.bishop import Bishop
+from rookvsbishop.pieces.rook import Rook
+from rookvsbishop.pieces.color import Color
 
 
 def test_board_initialization():

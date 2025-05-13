@@ -1,7 +1,7 @@
 import pytest
 
-from pieces.bishop import Bishop
-from pieces.color import Color
+from rookvsbishop.pieces.bishop import Bishop
+from rookvsbishop.pieces.color import Color
 
 
 def test_bishop_repr():

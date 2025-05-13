@@ -1,7 +1,7 @@
 import random
-from pieces.bishop import Bishop
-from pieces.rook import Rook
-from pieces.color import Color
+from rookvsbishop.pieces.bishop import Bishop
+from rookvsbishop.pieces.rook import Rook
+from rookvsbishop.pieces.color import Color
 
 
 class RookVsBishopGame:

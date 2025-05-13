@@ -1,6 +1,6 @@
 from typing import List
 
-from pieces.piece import Piece
+from rookvsbishop.pieces.piece import Piece
 
 
 class Board:

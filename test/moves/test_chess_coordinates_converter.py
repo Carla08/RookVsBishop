@@ -2,8 +2,8 @@
 
 import pytest
 
-from moves.chess_coordinates_converter import coords_to_notation
-from moves.chess_coordinates_converter import notation_to_coords
+from rookvsbishop.moves.chess_coordinates_converter import coords_to_notation
+from rookvsbishop.moves.chess_coordinates_converter import notation_to_coords
 
 
 @pytest.mark.parametrize("notation,expected_coords", [
