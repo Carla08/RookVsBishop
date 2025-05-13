@@ -7,4 +7,6 @@ class Rook(Piece):
         super().__init__(position, color)
 
     def can_capture(self, other_piece):
-        pass
+        same_row = self.y == other_piece.y
+        same_col = self.x == other_piece.x
+        return (same_row or same_col) and self.color != other_piece.color

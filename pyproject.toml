@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rookvsbishop"
+version = "0.1.0"
+description = "rook vs bishop chess simulation"
+authors = ["Carla Prieto <carlapchavez@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

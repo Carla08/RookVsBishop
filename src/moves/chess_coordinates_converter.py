@@ -14,6 +14,9 @@ def notation_to_coords(pos: str) -> Tuple[int, int]:
     """
     Converts chess notation (e.g., 'a1') to (x, y).
     """
+    if len(pos) != 2:
+        raise ValueError(f"Invalid position: {pos}")
+
     file = pos[0].lower()
     rank = pos[1]
 

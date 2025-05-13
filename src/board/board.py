@@ -8,7 +8,8 @@ class Board:
         self.pieces = pieces  # A list of Piece instances
 
     def __repr__(self):
-        print("Current board state:")
+        state = "Current board state:\n"
         for piece in self.pieces:
-            print(f"\n  {piece}")
-        print("-" * 30)  # end of the state
+            state += f"  {piece}\n"
+        state += "-" * 30
+        return state
